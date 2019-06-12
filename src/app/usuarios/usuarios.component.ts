@@ -9,7 +9,6 @@ export class UsuariosComponent implements OnInit {
 
   names: string[];
 
-
   constructor() {
    this.names = ['Mary', 'Jose', 'Bill' , 'Anna']
    }
