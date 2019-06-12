@@ -7,9 +7,11 @@ import { Component, OnInit } from '@angular/core';
 })
 export class UsuariosComponent implements OnInit {
 
-  name: String
+  names: string[];
+
+
   constructor() {
-   this.name = 'Bill'
+   this.names = ['Mary', 'Jose', 'Bill' , 'Anna']
    }
 
   ngOnInit() {
